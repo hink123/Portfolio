@@ -1,0 +1,17 @@
+
+body.has-navbar-fixed-top {
+    padding-top: 1vw;
+}
+
+section.hero-image {
+    background: linear-gradient(180deg,rgba(223, 223, 223, 0.12), black ), url('./portfolio-pic.jpg');
+    background-size: cover;
+}
+
+.section.is-large {
+    padding-top: 0;
+}
+
+div.info {
+    margin-left: 48vw;
+}
