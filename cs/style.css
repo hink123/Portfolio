@@ -4,7 +4,7 @@ body.has-navbar-fixed-top {
 }
 
 section.hero-image {
-    background: linear-gradient(180deg,rgba(223, 223, 223, 0.12), black ), url('./portfolio-pic.jpg');
+    background: linear-gradient(180deg,rgba(223, 223, 223, 0.12), black ), url('../images/portfolio-pic.jpg');
     background-size: cover;
 }
 
@@ -14,4 +14,15 @@ section.hero-image {
 
 div.info {
     margin-left: 48vw;
+}
+
+.section-spacing {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
