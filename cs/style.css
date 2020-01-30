@@ -36,7 +36,7 @@ div.info {
 .bio-spacing {
     padding-left: 13vw;
     padding-right: 13vw;
-    padding-bottom: 4vw;
+    padding-bottom: 3vw;
 }
 
 .project-details {
@@ -47,4 +47,20 @@ div.info {
 
 .info-spacing {
     padding-bottom: 1.2vw;
+}
+
+.footer {
+    background: #3C3F47;
+}
+
+.btn-spacing {
+    margin-right: 1vw;
+}
+
+.info-spacing {
+    margin-bottom: 10vw;
+}
+
+.image-border {
+    box-shadow: 10px 10px 20px black;
 }
