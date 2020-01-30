@@ -1,10 +1,21 @@
+body {
+    background: white;
+}
+
+.content-body {
+    background: linear-gradient(180deg, #5E6473, #222529);
+}
 
 body.has-navbar-fixed-top {
-    padding-top: 1vw;
+    padding-top: 0;
+}
+
+section {
+    color: white;
 }
 
 section.hero-image {
-    background: linear-gradient(180deg,rgba(223, 223, 223, 0.12), black ), url('../images/portfolio-pic.jpg');
+    background: linear-gradient(180deg,rgba(223, 223, 223, 0), #5E6473 ), url('../images/portfolio-pic.jpg');
     background-size: cover;
 }
 
@@ -17,8 +28,15 @@ div.info {
 }
 
 .section-spacing {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    padding-bottom: 15vw;
+}
+
+.bio-spacing {
+    padding-left: 13vw;
+    padding-right: 13vw;
+    padding-bottom: 4vw;
 }
 
 .project-details {
