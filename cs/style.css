@@ -26,3 +26,7 @@ div.info {
     flex-direction: column;
     justify-content: center;
 }
+
+.info-spacing {
+    padding-bottom: 1.2vw;
+}
