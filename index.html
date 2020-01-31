@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script defer src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="cs/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Will Hinkelman</title>
   </head>
   <body class="has-navbar-fixed-top">
-    <div class="container nav">
+    <div class="nav">
         <nav class="navbar">
             <div class="navbar-brand">
-                <a href="" class="navbar-item">Will Hinkelman</a>
+                <a href="#home" class="navbar-item navbar-name">Will Hinkelman</a>
 
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarDrop">
                     <span aria-hidden="true"></span>
@@ -23,14 +24,14 @@
             </div>
             <div id="navbarDrop" class="navbar-menu">
                 <div class="navbar-end">
-                    <a href="" class="navbar-item">About</a>
-                    <a href="" class="navbar-item">Contact</a>
+                    <a href="#about" class="navbar-item navbar-right">About</a>
+                    <a href="#contact" class="navbar-item navbar-right">Contact</a>
                 </div>
             </div>
         </nav>
     </div>
 
-    <section class="section hero is-large hero-image fade">
+    <section class="section hero is-large hero-image fade" id="home">
         <div class="hero-body">
             <div class="container info">
                 <h1 class="title has-text-white">
@@ -180,7 +181,7 @@
             </div>
         </section>
 
-        <section class="section bio-spacing">
+        <section class="section bio-spacing" id="about">
             <div class="container">
                 <div class="column">
                     <h1 class="title has-text-white">
@@ -209,7 +210,7 @@
             </div>
         </section>
     </div>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="content has-text-centered">
             <h1 class="has-text-white">
                 Contact Me: will.hink24@gmail.com

@@ -37,6 +37,7 @@ div.info {
     padding-left: 13vw;
     padding-right: 13vw;
     padding-bottom: 3vw;
+    padding-top: 5vw;
 }
 
 .project-details {
@@ -63,4 +64,25 @@ div.info {
 
 .image-border {
     box-shadow: 10px 10px 20px black;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+
+}
+
+.navbar-name {
+    font-size: 25px;
+    padding-left: 5vw;
+    font-weight: bold;
+    color: #3D4149;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar-right {
+    font-size: 20px;
+    padding-right: 5vw;
+    color: #3D4149;
 }
