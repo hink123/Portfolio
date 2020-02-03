@@ -86,3 +86,18 @@ div.info {
     padding-right: 5vw;
     color: #3D4149;
 }
+
+
+@media (max-width: 769px) {
+    .hero-body {
+        padding-top: 12vh;
+    }
+
+    .main-blurb {
+        font-size: 4vw;
+    }
+    
+    .main-text {
+        font-size: 3.5vw;
+    }
+}
